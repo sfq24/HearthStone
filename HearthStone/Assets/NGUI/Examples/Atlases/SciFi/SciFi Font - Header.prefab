@@ -3,26 +3,26 @@
 --- !u!1 &100000
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 3
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
   m_Layer: 8
   m_Name: SciFi Font - Header
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1002 &100001
 EditorExtensionImpl:
   serializedVersion: 6
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -30,27 +30,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1002 &400001
 EditorExtensionImpl:
   serializedVersion: 6
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 1}
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: 7b4d21284f230674c8f3d4d6f45b3dde, type: 2}
   mUVRect:
-    serializedVersion: 2
     x: 0
     y: 0
-    width: .5
+    width: 0.5
     height: 1
   mFont:
+    mGlyphs: []
     mSize: 28
     mBase: 21
     mWidth: 256
@@ -65,8 +68,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 18
       advance: 9
-      channel: 0
-      kerning: 
     - index: 33
       x: 240
       y: 203
@@ -75,8 +76,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 7
-      channel: 0
-      kerning: 
     - index: 34
       x: 14
       y: 453
@@ -85,8 +84,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 2
       advance: 12
-      channel: 0
-      kerning: 
     - index: 35
       x: 108
       y: 429
@@ -95,8 +92,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 6
       advance: 16
-      channel: 0
-      kerning: 
     - index: 36
       x: 202
       y: 149
@@ -105,8 +100,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 1
       advance: 21
-      channel: 0
-      kerning: 
     - index: 37
       x: 180
       y: 203
@@ -115,8 +108,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 20
-      channel: 0
-      kerning: 
     - index: 38
       x: 118
       y: 309
@@ -125,8 +116,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 24
-      channel: 0
-      kerning: 
     - index: 39
       x: 48
       y: 453
@@ -135,8 +124,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 40
       x: 45
       y: 180
@@ -145,8 +132,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 1
       advance: 9
-      channel: 0
-      kerning: 
     - index: 41
       x: 28
       y: 180
@@ -155,8 +140,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 1
       advance: 9
-      channel: 0
-      kerning: 
     - index: 42
       x: 223
       y: 429
@@ -165,8 +148,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 11
-      channel: 0
-      kerning: 
     - index: 43
       x: 158
       y: 429
@@ -175,8 +156,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 5
       advance: 12
-      channel: 0
-      kerning: 
     - index: 44
       x: 34
       y: 453
@@ -185,8 +164,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 16
       advance: 7
-      channel: 0
-      kerning: 
     - index: 45
       x: 165
       y: 450
@@ -195,8 +172,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 9
       advance: 14
-      channel: 0
-      kerning: 
     - index: 46
       x: 206
       y: 448
@@ -205,8 +180,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 16
       advance: 6
-      channel: 0
-      kerning: 
     - index: 47
       x: 87
       y: 234
@@ -215,8 +188,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 48
       x: 29
       y: 405
@@ -225,8 +196,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 49
       x: 196
       y: 278
@@ -235,8 +204,6 @@ MonoBehaviour:
       offsetX: -4
       offsetY: 3
       advance: 9
-      channel: 0
-      kerning: 
     - index: 50
       x: 58
       y: 405
@@ -245,8 +212,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 51
       x: 28
       y: 429
@@ -255,8 +220,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 52
       x: 145
       y: 230
@@ -265,8 +228,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 20
-      channel: 0
-      kerning: 
     - index: 53
       x: 0
       y: 405
@@ -275,8 +236,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 54
       x: 87
       y: 405
@@ -285,8 +244,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 55
       x: 181
       y: 305
@@ -295,8 +252,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 4
       advance: 20
-      channel: 0
-      kerning: 
     - index: 56
       x: 116
       y: 405
@@ -305,8 +260,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 57
       x: 120
       y: 333
@@ -315,8 +268,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 58
       x: 0
       y: 453
@@ -325,8 +276,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 7
       advance: 6
-      channel: 0
-      kerning: 
     - index: 59
       x: 241
       y: 303
@@ -335,8 +284,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 10
       advance: 7
-      channel: 0
-      kerning: 
     - index: 60
       x: 232
       y: 253
@@ -345,8 +292,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 12
-      channel: 0
-      kerning: 
     - index: 61
       x: 180
       y: 429
@@ -355,8 +300,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 6
       advance: 14
-      channel: 0
-      kerning: 
     - index: 62
       x: 232
       y: 228
@@ -365,8 +308,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 12
-      channel: 0
-      kerning: 
     - index: 63
       x: 82
       y: 429
@@ -375,8 +316,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 18
-      channel: 0
-      kerning: 
     - index: 64
       x: 149
       y: 333
@@ -385,8 +324,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 22
-      channel: 0
-      kerning: 
     - index: 65
       x: 192
       y: 178
@@ -395,8 +332,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 66
       x: 178
       y: 329
@@ -405,8 +340,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 67
       x: 0
       y: 429
@@ -415,8 +348,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 68
       x: 207
       y: 329
@@ -425,8 +356,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 69
       x: 0
       y: 357
@@ -435,8 +364,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 70
       x: 29
       y: 357
@@ -445,8 +372,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 20
-      channel: 0
-      kerning: 
     - index: 71
       x: 58
       y: 357
@@ -455,8 +380,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 72
       x: 116
       y: 255
@@ -465,8 +388,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 73
       x: 214
       y: 278
@@ -475,8 +396,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 7
-      channel: 0
-      kerning: 
     - index: 74
       x: 142
       y: 280
@@ -485,8 +404,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 75
       x: 29
       y: 234
@@ -495,8 +412,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 76
       x: 114
       y: 284
@@ -505,8 +420,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 3
       advance: 20
-      channel: 0
-      kerning: 
     - index: 77
       x: 145
       y: 255
@@ -515,8 +428,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 78
       x: 174
       y: 253
@@ -525,8 +436,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 79
       x: 87
       y: 357
@@ -535,8 +444,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 80
       x: 116
       y: 357
@@ -545,8 +452,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 81
       x: 62
       y: 179
@@ -555,8 +460,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 82
       x: 60
       y: 333
@@ -565,8 +468,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 83
       x: 145
       y: 357
@@ -575,8 +476,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 84
       x: 201
       y: 405
@@ -585,8 +484,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 19
-      channel: 0
-      kerning: 
     - index: 85
       x: 29
       y: 284
@@ -595,8 +492,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 86
       x: 222
       y: 178
@@ -605,8 +500,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 87
       x: 0
       y: 234
@@ -615,8 +508,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 88
       x: 30
       y: 209
@@ -625,8 +516,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 20
-      channel: 0
-      kerning: 
     - index: 89
       x: 150
       y: 203
@@ -635,8 +524,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 90
       x: 30
       y: 333
@@ -645,8 +532,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 4
       advance: 20
-      channel: 0
-      kerning: 
     - index: 91
       x: 109
       y: 120
@@ -655,8 +540,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 1
       advance: 9
-      channel: 0
-      kerning: 
     - index: 92
       x: 58
       y: 234
@@ -665,8 +548,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 93
       x: 124
       y: 120
@@ -675,8 +556,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 1
       advance: 9
-      channel: 0
-      kerning: 
     - index: 94
       x: 62
       y: 453
@@ -685,8 +564,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 0
       advance: 16
-      channel: 0
-      kerning: 
     - index: 95
       x: 139
       y: 451
@@ -695,8 +572,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 21
       advance: 18
-      channel: 0
-      kerning: 
     - index: 96
       x: 122
       y: 451
@@ -705,8 +580,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 97
       x: 90
       y: 205
@@ -715,8 +588,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 98
       x: 174
       y: 357
@@ -725,8 +596,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 99
       x: 173
       y: 405
@@ -735,8 +604,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 100
       x: 0
       y: 381
@@ -745,8 +612,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 101
       x: 29
       y: 381
@@ -755,8 +620,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 102
       x: 58
       y: 381
@@ -765,8 +628,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 20
-      channel: 0
-      kerning: 
     - index: 103
       x: 87
       y: 381
@@ -775,8 +636,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 104
       x: 87
       y: 259
@@ -785,8 +644,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 105
       x: 228
       y: 278
@@ -795,8 +652,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 7
-      channel: 0
-      kerning: 
     - index: 106
       x: 169
       y: 280
@@ -805,8 +660,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 107
       x: 203
       y: 253
@@ -815,8 +668,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 108
       x: 86
       y: 284
@@ -825,8 +676,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 3
       advance: 20
-      channel: 0
-      kerning: 
     - index: 109
       x: 174
       y: 228
@@ -835,8 +684,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 110
       x: 58
       y: 259
@@ -845,8 +692,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 111
       x: 116
       y: 381
@@ -855,8 +700,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 112
       x: 174
       y: 381
@@ -865,8 +708,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 113
       x: 91
       y: 179
@@ -875,8 +716,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 114
       x: 90
       y: 333
@@ -885,8 +724,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 115
       x: 203
       y: 377
@@ -895,8 +732,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 116
       x: 145
       y: 405
@@ -905,8 +740,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 19
-      channel: 0
-      kerning: 
     - index: 117
       x: 116
       y: 230
@@ -915,8 +748,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 118
       x: 60
       y: 209
@@ -925,8 +756,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 119
       x: 203
       y: 228
@@ -935,8 +764,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 120
       x: 120
       y: 205
@@ -945,8 +772,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 20
-      channel: 0
-      kerning: 
     - index: 121
       x: 210
       y: 203
@@ -955,8 +780,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 122
       x: 0
       y: 333
@@ -965,8 +788,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 4
       advance: 20
-      channel: 0
-      kerning: 
     - index: 123
       x: 0
       y: 209
@@ -975,8 +796,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 124
       x: 0
       y: 0
@@ -985,8 +804,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 1
       advance: 7
-      channel: 0
-      kerning: 
     - index: 125
       x: 29
       y: 259
@@ -995,8 +812,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 3
       advance: 19
-      channel: 0
-      kerning: 
     - index: 126
       x: 147
       y: 178
@@ -1005,8 +820,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 38
-      channel: 0
-      kerning: 
     - index: 160
       x: 220
       y: 448
@@ -1015,8 +828,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 18
       advance: 9
-      channel: 0
-      kerning: 
     - index: 161
       x: 242
       y: 278
@@ -1025,8 +836,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 7
-      channel: 0
-      kerning: 
     - index: 162
       x: 232
       y: 353
@@ -1035,8 +844,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 1
       advance: 13
-      channel: 0
-      kerning: 
     - index: 163
       x: 229
       y: 401
@@ -1045,8 +852,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 19
-      channel: 0
-      kerning: 
     - index: 165
       x: 58
       y: 284
@@ -1055,8 +860,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 20
-      channel: 0
-      kerning: 
     - index: 168
       x: 187
       y: 448
@@ -1065,8 +868,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -1
       advance: 11
-      channel: 0
-      kerning: 
     - index: 169
       x: 120
       y: 179
@@ -1075,8 +876,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 171
       x: 232
       y: 376
@@ -1085,8 +884,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 6
       advance: 15
-      channel: 0
-      kerning: 
     - index: 174
       x: 202
       y: 429
@@ -1095,8 +892,6 @@ MonoBehaviour:
       offsetX: 2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 176
       x: 236
       y: 327
@@ -1105,8 +900,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 0
       advance: 11
-      channel: 0
-      kerning: 
     - index: 180
       x: 105
       y: 453
@@ -1115,8 +908,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 184
       x: 88
       y: 453
@@ -1125,8 +916,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 17
       advance: 7
-      channel: 0
-      kerning: 
     - index: 187
       x: 135
       y: 429
@@ -1135,8 +924,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 6
       advance: 15
-      channel: 0
-      kerning: 
     - index: 191
       x: 56
       y: 429
@@ -1145,8 +932,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 18
-      channel: 0
-      kerning: 
     - index: 192
       x: 14
       y: 0
@@ -1155,8 +940,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 193
       x: 44
       y: 0
@@ -1165,8 +948,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 194
       x: 164
       y: 0
@@ -1175,8 +956,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 195
       x: 60
       y: 30
@@ -1185,8 +964,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 196
       x: 169
       y: 120
@@ -1195,8 +972,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -1
       advance: 19
-      channel: 0
-      kerning: 
     - index: 197
       x: 194
       y: 0
@@ -1205,8 +980,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 198
       x: 83
       y: 309
@@ -1215,8 +988,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 4
       advance: 26
-      channel: 0
-      kerning: 
     - index: 199
       x: 174
       y: 149
@@ -1225,8 +996,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 200
       x: 0
       y: 91
@@ -1235,8 +1004,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 201
       x: 0
       y: 61
@@ -1245,8 +1012,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 202
       x: 116
       y: 90
@@ -1255,8 +1020,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 203
       x: 29
       y: 151
@@ -1265,8 +1028,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: -1
       advance: 21
-      channel: 0
-      kerning: 
     - index: 204
       x: 232
       y: 90
@@ -1275,8 +1036,6 @@ MonoBehaviour:
       offsetX: -4
       offsetY: -2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 205
       x: 75
       y: 120
@@ -1285,8 +1044,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 206
       x: 232
       y: 60
@@ -1295,8 +1052,6 @@ MonoBehaviour:
       offsetX: -5
       offsetY: -2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 207
       x: 229
       y: 120
@@ -1305,8 +1060,6 @@ MonoBehaviour:
       offsetX: -4
       offsetY: -1
       advance: 7
-      channel: 0
-      kerning: 
     - index: 208
       x: 151
       y: 305
@@ -1315,8 +1068,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 209
       x: 116
       y: 60
@@ -1325,8 +1076,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 210
       x: 174
       y: 60
@@ -1335,8 +1084,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 211
       x: 87
       y: 60
@@ -1345,8 +1092,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 212
       x: 58
       y: 60
@@ -1355,8 +1100,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 213
       x: 178
       y: 30
@@ -1365,8 +1108,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 214
       x: 0
       y: 151
@@ -1375,8 +1116,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -1
       advance: 21
-      channel: 0
-      kerning: 
     - index: 216
       x: 203
       y: 353
@@ -1385,8 +1124,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 217
       x: 87
       y: 90
@@ -1395,8 +1132,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 218
       x: 203
       y: 60
@@ -1405,8 +1140,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 219
       x: 58
       y: 90
@@ -1415,8 +1148,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 220
       x: 58
       y: 150
@@ -1425,8 +1156,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -1
       advance: 21
-      channel: 0
-      kerning: 
     - index: 221
       x: 90
       y: 30
@@ -1435,8 +1164,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 222
       x: 0
       y: 259
@@ -1445,8 +1172,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 223
       x: 0
       y: 309
@@ -1455,8 +1180,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 42
-      channel: 0
-      kerning: 
     - index: 224
       x: 30
       y: 30
@@ -1465,8 +1188,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 225
       x: 134
       y: 0
@@ -1475,8 +1196,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 226
       x: 104
       y: 0
@@ -1485,8 +1204,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 227
       x: 224
       y: 0
@@ -1495,8 +1212,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 228
       x: 139
       y: 120
@@ -1505,8 +1220,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -1
       advance: 19
-      channel: 0
-      kerning: 
     - index: 229
       x: 0
       y: 31
@@ -1515,8 +1228,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 230
       x: 48
       y: 309
@@ -1525,8 +1236,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 4
       advance: 26
-      channel: 0
-      kerning: 
     - index: 231
       x: 0
       y: 180
@@ -1535,8 +1244,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 232
       x: 174
       y: 90
@@ -1545,8 +1252,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 233
       x: 145
       y: 60
@@ -1555,8 +1260,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 234
       x: 203
       y: 90
@@ -1565,8 +1268,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 235
       x: 116
       y: 150
@@ -1575,8 +1276,6 @@ MonoBehaviour:
       offsetX: -1
       offsetY: -1
       advance: 21
-      channel: 0
-      kerning: 
     - index: 236
       x: 92
       y: 120
@@ -1585,8 +1284,6 @@ MonoBehaviour:
       offsetX: -4
       offsetY: -2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 237
       x: 58
       y: 120
@@ -1595,8 +1292,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 238
       x: 236
       y: 30
@@ -1605,8 +1300,6 @@ MonoBehaviour:
       offsetX: -5
       offsetY: -2
       advance: 7
-      channel: 0
-      kerning: 
     - index: 239
       x: 230
       y: 149
@@ -1615,8 +1308,6 @@ MonoBehaviour:
       offsetX: -4
       offsetY: -1
       advance: 7
-      channel: 0
-      kerning: 
     - index: 240
       x: 211
       y: 303
@@ -1625,8 +1316,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 241
       x: 0
       y: 121
@@ -1635,8 +1324,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 242
       x: 29
       y: 121
@@ -1645,8 +1332,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 243
       x: 145
       y: 90
@@ -1655,8 +1340,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 244
       x: 120
       y: 30
@@ -1665,8 +1348,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 245
       x: 29
       y: 91
@@ -1675,8 +1356,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 246
       x: 87
       y: 150
@@ -1685,8 +1364,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -1
       advance: 21
-      channel: 0
-      kerning: 
     - index: 248
       x: 145
       y: 381
@@ -1695,8 +1372,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 4
       advance: 21
-      channel: 0
-      kerning: 
     - index: 249
       x: 149
       y: 30
@@ -1705,8 +1380,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 250
       x: 207
       y: 30
@@ -1715,8 +1388,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 251
       x: 29
       y: 61
@@ -1725,8 +1396,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -2
       advance: 21
-      channel: 0
-      kerning: 
     - index: 252
       x: 145
       y: 149
@@ -1735,8 +1404,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: -1
       advance: 21
-      channel: 0
-      kerning: 
     - index: 253
       x: 74
       y: 0
@@ -1745,8 +1412,6 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -2
       advance: 19
-      channel: 0
-      kerning: 
     - index: 254
       x: 0
       y: 284
@@ -1755,8 +1420,6 @@ MonoBehaviour:
       offsetX: -2
       offsetY: 3
       advance: 21
-      channel: 0
-      kerning: 
     - index: 255
       x: 199
       y: 120
@@ -1765,15 +1428,10 @@ MonoBehaviour:
       offsetX: -3
       offsetY: -1
       advance: 19
-      channel: 0
-      kerning: 
+  mSpacingX: 0
+  mSpacingY: 0
   mAtlas: {fileID: 11400000, guid: 2f2473f73b9ca724f9080d6d76009ea2, type: 2}
   mReplacement: {fileID: 0}
-  mPixelSize: 1
-  mSymbols: []
-  mDynamicFont: {fileID: 0}
-  mDynamicFontSize: 16
-  mDynamicFontStyle: 0
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -1785,10 +1443,9 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
-  m_IsPrefabParent: 1
-  m_IsExploded: 1
+  m_IsPrefabAsset: 1
 --- !u!1002 &100100001
 EditorExtensionImpl:
   serializedVersion: 6

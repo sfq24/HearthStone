@@ -39,7 +39,7 @@ Shader "Transparent/Refractive"
 			AlphaTest Greater 0
 
 			CGPROGRAM
-			#pragma target 3.0
+			
 			#pragma exclude_renderers gles
 			#pragma vertex vert
 			#pragma surface surf PPL alpha
@@ -66,9 +66,6 @@ Shader "Transparent/Refractive"
 
 			void vert (inout appdata_full v, out Input o)
 			{
-#if SHADER_API_D3D11
-				UNITY_INITIALIZE_OUTPUT(Input, o);
-#endif
 				o.position = UnityObjectToClipPos(v.vertex);
 				
 				#if UNITY_UV_STARTS_AT_TOP
