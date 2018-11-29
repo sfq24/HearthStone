@@ -7,6 +7,7 @@ public class StartManager : MonoBehaviour
     private bool filmIsPlaying = true;
     public bool messageShown = false;
 
+    public TweenScale logoTweenScale;
     // Use this for initialization
     private void Start()
     {
@@ -56,6 +57,7 @@ public class StartManager : MonoBehaviour
     {
         startFilm.Stop();
         filmIsPlaying = false;
-        
+
+        logoTweenScale.PlayForward();
     }
 }

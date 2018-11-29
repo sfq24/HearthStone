@@ -4,17 +4,17 @@
 
 #Unity
 
-/[Ll]ibrary/
+HearthStone/[Ll]ibrary/
 
-/[Tt]emp/
+HearthStone/[Tt]emp/
 
-/[Oo]bj/
+HearthStone/[Oo]bj/
 
-/[Bb]uild/
+HearthStone/[Bb]uild/
 
-/[Bb]uilds/
+HearthStone/[Bb]uilds/
 
-/Assets/AssetStoreTools*
+HearthStone/Assets/AssetStoreTools*
 
 sysinfo.txt
 
