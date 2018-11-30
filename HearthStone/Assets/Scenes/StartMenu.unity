@@ -2341,6 +2341,7 @@ Transform:
   - {fileID: 1357362129}
   - {fileID: 813439690}
   - {fileID: 2005626482}
+  - {fileID: 1882924984}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2454,6 +2455,101 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 120, y: 120, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1882924983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1882924984}
+  - component: {fileID: 1882924985}
+  - component: {fileID: 1882924986}
+  m_Layer: 8
+  m_Name: BlackMusk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1882924984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882924983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1812147433}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1882924985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882924983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftAnchor:
+    target: {fileID: 1812147433}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 1812147433}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 1812147433}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 1812147433}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 0.047169805, g: 0.047169805, b: 0.047169805, a: 0.63529414}
+  mPivot: 4
+  mWidth: 1320
+  mHeight: 638
+  mDepth: 8
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 2.0689654
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlas: {fileID: 114591701471345850, guid: 280d90bdd5aee084c9394feabdc8efd1, type: 2}
+  mSpriteName: CollectionDeck_Silhouette
+  mFillCenter: 1
+--- !u!114 &1882924986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882924983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9fb1a7f5fe09a498239c0058c006bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2005626481
 GameObject:
   m_ObjectHideFlags: 0

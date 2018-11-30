@@ -54,8 +54,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 6eb6f023214820b42ad64d3cc0e3d7cc, type: 2}
   mSprites:
   - name: 2Flogo
-    x: 1483
-    y: 1709
+    x: 1546
+    y: 1297
     width: 450
     height: 339
     borderLeft: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 18
   - name: aab
-    x: 1029
+    x: 1546
     y: 1641
     width: 449
     height: 407
@@ -92,9 +92,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: CollectionDeck_Silhouette
+    x: 1029
+    y: 1536
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: MainText
-    x: 0
-    y: 58
+    x: 1029
+    y: 1295
     width: 449
     height: 236
     borderLeft: 0
