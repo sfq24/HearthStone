@@ -54,8 +54,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 79dc8e79cdacda04998672ca8fa6486a, type: 2}
   mSprites:
   - name: hero1
-    x: 517
-    y: 451
+    x: 634
+    y: 409
     width: 110
     height: 113
     borderLeft: 0
@@ -67,8 +67,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 6
   - name: hero2
-    x: 711
-    y: 664
+    x: 778
+    y: 445
     width: 113
     height: 119
     borderLeft: 0
@@ -80,8 +80,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero3
-    x: 711
-    y: 540
+    x: 517
+    y: 403
     width: 112
     height: 119
     borderLeft: 0
@@ -93,8 +93,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero4
-    x: 632
-    y: 416
+    x: 634
+    y: 285
     width: 102
     height: 119
     borderLeft: 0
@@ -106,8 +106,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero5
-    x: 0
-    y: 388
+    x: 741
+    y: 197
     width: 99
     height: 119
     borderLeft: 0
@@ -119,8 +119,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero6
-    x: 739
-    y: 416
+    x: 856
+    y: 321
     width: 100
     height: 119
     borderLeft: 0
@@ -132,8 +132,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero7
-    x: 829
-    y: 664
+    x: 896
+    y: 445
     width: 112
     height: 119
     borderLeft: 0
@@ -145,8 +145,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero8
-    x: 828
-    y: 540
+    x: 749
+    y: 321
     width: 102
     height: 119
     borderLeft: 0
@@ -158,8 +158,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero9
-    x: 844
-    y: 416
+    x: 845
+    y: 197
     width: 99
     height: 119
     borderLeft: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: PlayButton_Glow
-    x: 517
+    x: 778
     y: 569
     width: 189
     height: 214
@@ -209,6 +209,19 @@ MonoBehaviour:
     paddingRight: 31
     paddingTop: 16
     paddingBottom: 26
+  - name: vs
+    x: 517
+    y: 527
+    width: 256
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
