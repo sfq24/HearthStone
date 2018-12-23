@@ -2,7 +2,7 @@
 
 public class VS_Show : MonoBehaviour
 {
-    public static VS_Show _instance;
+    public static VS_Show _instance;             //单例模式
     public TweenScale vsScale;
     public TweenPosition playHeroPos;
     public TweenPosition aiPlayerPos;

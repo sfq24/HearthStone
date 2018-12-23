@@ -54,8 +54,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 79dc8e79cdacda04998672ca8fa6486a, type: 2}
   mSprites:
   - name: hero1
-    x: 634
-    y: 409
+    x: 399
+    y: 394
     width: 110
     height: 113
     borderLeft: 0
@@ -67,8 +67,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 6
   - name: hero2
-    x: 778
-    y: 445
+    x: 528
+    y: 270
     width: 113
     height: 119
     borderLeft: 0
@@ -80,8 +80,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero3
-    x: 517
-    y: 403
+    x: 528
+    y: 146
     width: 112
     height: 119
     borderLeft: 0
@@ -93,8 +93,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero4
-    x: 634
-    y: 285
+    x: 396
+    y: 137
     width: 102
     height: 119
     borderLeft: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero5
-    x: 741
+    x: 916
     y: 197
     width: 99
     height: 119
@@ -119,8 +119,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero6
-    x: 856
-    y: 321
+    x: 257
+    y: 127
     width: 100
     height: 119
     borderLeft: 0
@@ -132,8 +132,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero7
-    x: 896
-    y: 445
+    x: 646
+    y: 179
     width: 112
     height: 119
     borderLeft: 0
@@ -145,8 +145,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero8
-    x: 749
-    y: 321
+    x: 911
+    y: 445
     width: 102
     height: 119
     borderLeft: 0
@@ -158,8 +158,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hero9
-    x: 845
-    y: 197
+    x: 916
+    y: 321
     width: 99
     height: 119
     borderLeft: 0
@@ -168,6 +168,19 @@ MonoBehaviour:
     borderBottom: 0
     paddingLeft: 10
     paddingRight: 10
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lipanel
+    x: 763
+    y: 229
+    width: 129
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: MainText
@@ -209,6 +222,175 @@ MonoBehaviour:
     paddingRight: 31
     paddingTop: 16
     paddingBottom: 26
+  - name: TextInlineImages_00
+    x: 266
+    y: 381
+    width: 128
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 2
+  - name: TextInlineImages_01
+    x: 0
+    y: 134
+    width: 128
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 0
+  - name: TextInlineImages_02
+    x: 133
+    y: 253
+    width: 128
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 0
+  - name: TextInlineImages_03
+    x: 0
+    y: 10
+    width: 114
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 14
+    paddingTop: 9
+    paddingBottom: 0
+  - name: TextInlineImages_04
+    x: 266
+    y: 251
+    width: 125
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TextInlineImages_05
+    x: 778
+    y: 436
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TextInlineImages_06
+    x: 133
+    y: 380
+    width: 128
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: TextInlineImages_07
+    x: 399
+    y: 261
+    width: 124
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TextInlineImages_08
+    x: 783
+    y: 303
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TextInlineImages_09
+    x: 0
+    y: 261
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TextInlineImages_10
+    x: 517
+    y: 394
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TextInlineImages_normal
+    x: 133
+    y: 120
+    width: 119
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 9
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TextInlineImages09
+    x: 650
+    y: 303
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: vs
     x: 517
     y: 527
